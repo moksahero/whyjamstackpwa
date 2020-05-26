@@ -58,7 +58,6 @@
 					<p class="fragment">カナダモントリオールのコンコーディア大学をCSと経済学の学位を取得して卒業</p>
 					<p class="fragment">GengoやPayPalや電通で働く</p>
 					<p class="fragment">eBay出品ツールNijuyonを開発して、世界中を旅しながら仕事</p>
-					<p class="fragment">池田山商会代表</p>
 					<p class="fragment">2019年11月からアムステルダム在住</p>
 					<p class="fragment">日本に帰りたいけど帰れない...</p>
 				</section>
@@ -66,10 +65,10 @@
 				<section>
 					<h3>天野の仕事</h3>
 					<p class="fragment">池田山商会代表</p>
-					<p class="fragment">IR情報提供サイトのPWA化</p>
-					<p class="fragment">インフルエンサー向けPWA</p>
-					<p class="fragment"></p>
+					<p class="fragment">いろんなサイトのPWA化</p>
+					<p class="fragment">IR情報提供、インフルエンサー、EC...</p>
 					<p class="fragment">ウクライナの開発パートナー会社</p>
+					<p class="fragment">ヨーロッパ進出企業支援</p>
 					<p class="fragment">お仕事絶賛募集中</p>
 				</section>
 
@@ -86,7 +85,7 @@
 				</section>
 
 				<section>
-					<h3>これらのサービスに共通して言えること</h3>
+					<h3>共通して言えること</h3>
 					<p class="fragment">世界最速</p>
 					<p class="fragment">洗練されたUI</p>
 					<p class="fragment">Service Workerとかもバッチリ</p>
@@ -94,13 +93,13 @@
 
 				<section>
 					<h3>ユーザーの期待値</h3>
-					<p class="fragment">一番使っているアプリが最速</p>
+					<p class="fragment">普段使っているアプリが最速</p>
 					<p class="fragment">UIもすごく使いやすい</p>
 					<p class="fragment">キャッシュとかもバリバリ効いている</p>
 				</section>
 
 				<section>
-					<h3>ユーザーの視点</h3>
+					<h3>サイトが少しでも遅いと...</h3>
 					<p class="fragment">遅いサイト</p>
 					<p class="fragment">使いにくいサイト</p>
 					<p class="fragment">キャッシュが効いてないサイト</p>
@@ -113,7 +112,8 @@
 
 				<section>
 					<h3>直帰率の増加</h3>
-					https://www.thinkwithgoogle.com/marketing-resources/data-measurement/mobile-page-speed-new-industry-benchmarks/
+					<img width="600" src="images/bouncerate.png" /><br>
+					<small>出典: Think with Google</small>
 				</section>
 
 				<section>
@@ -122,7 +122,7 @@
 				</section>
 
 				<section>
-					<h3>買い物を途中で辞める理由</h3>
+					<h3>買い物を途中で辞める</h3>
 					<p class="fragment">67%のユーザーが遅いサイトでは買い物を辞める</p>
 				</section>
 
@@ -133,8 +133,8 @@
 
 				<section>
 					<h3>Amazonの場合</h3>
-					<p class="fragment">1秒のロード・タイムの遅れ</p>
-					<p class="fragment">年間16億ドルの損失</p>
+					<p class="fragment">1秒のロードタイムの遅れ</p>
+					<p class="fragment">年間16億ドル(約1720億円)の損失</p>
 				</section>
 
 				<section>
@@ -147,7 +147,6 @@
 				<section>
 					<h3>遅いサイトのUX</h3>
 					<p class="fragment">67%のユーザーがサイトは4秒以内にロードすると期待</p>
-					<p class="fragment">88%のユーザーが戻らない</p>
 					<p class="fragment">85%のユーザーがモバイルもPC版も同じスピードで有ることを期待</p>
 					<p class="fragment">71%のユーザーが遅いサイトのブランドを信じない</p>
 					<p class="fragment">77%のユーザーがサイトが遅いことをSNSとか友達に伝える</p>
@@ -189,42 +188,59 @@
 					<h3>Markup</h3>
 					<p class="fragment">デプロイ時に静的にファイルを生成</p>
 					<p class="fragment">ファイルはCDNに置かれる</p>
-					<p class="fragment">Gatsby (React), Gridsome (Vue), Svelte (Sapper)rsu etc...</p>
+					<p class="fragment">Gatsby (React), Gridsome (Vue), Svelte (Sapper)</p>
 				</section>
 
 				<section>
-					<h3>JAMstackとこれまでのサイトの仕組みの違い</h3>
-					<p class="fragment">違いの図</p>
-				</section>
-
-				<section>
-					<h3>JAMstackを技術的に</h3>
-					<p class="fragment">静的ファイル生成 -> Gatsby</p>
-					<p class="fragment">CI/CD with git -> Netlify</p>
-					<p class="fragment">CDN -> Netlify</p>
-					<p class="fragment">data update / cache無効化 -> webhook / Netlify</p>
+					<h3>JAMstackの技術</h3>
+					<p class="fragment">静的ファイル生成</p>
+					<p class="fragment">CI/CD with git</p>
+					<p class="fragment">CDN</p>
+					<p class="fragment">data update / cache無効化</p>
 				</section>
 
 				<section>
 					<h3>静的ファイル生成</h3>
+					<p class="fragment">様々なデータソースからデータ取得</p>
+					<p class="fragment">Gatsbyのテンプレートでデータ整形</p>
+					<p class="fragment">画像ファイル最適化</p>
+					<p class="fragment">静的htmlファイルを生成</p>
 				</section>
 
 				<section>
 					<h3>CI/CD with git</h3>
-					<h3>Neflity</h3>
+					<p class="fragment">Github, Gitlabのレポジトリにpush</p>
+					<p class="fragment">Netlifyでデプロイが開始</p>
 				</section>
 
 				<section>
-					<h3>CDN</h3>
-					<h3>Neflity</h3>
+					<h3>CDNにデプロイ</h3>
+					<p class="fragment">静的htmlファイルが生成</p>
+					<p class="fragment">CDNにデプロイ</p>
+					<p class="fragment">Netlify, AWS S3, Heroku</p>
+					<p class="fragment">Azure Static Web Apps, etc...</p>
 				</section>
 
 				<section>
-					<h3>Data update</h3>
+					<h3>JAMstack開発</h3>
+					<img class="plain" src="images/jam1.png" />
+				</section>
+
+				<section>
+					<h3>JAMstackリクエスト</h3>
+					<img class="plain" src="images/jam2.png" />
+				</section>
+
+				<section>
+					<h3>LAMP</h3>
+					<img class="plain" src="images/lamp.png" />
 				</section>
 
 				<section>
 					<h3>Gatsby Cloud</h3>
+					<p class="fragment">Incremental Builds: 差分だけのビルド</p>
+					<p class="fragment">Deploy Previews</p>
+					<p class="fragment">自動Lighthouseチェック</p>
 				</section>
 
 				<section>

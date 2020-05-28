@@ -160,7 +160,6 @@
 				<section>
 					<h3>解決方法</h3>
 					<p class="fragment">JAMstack</p>
-					<p class="fragment">PWA</p>
 				</section>
 
 				<section>
@@ -188,7 +187,8 @@
 					<h3>Markup</h3>
 					<p class="fragment">デプロイ時に静的にファイルを生成</p>
 					<p class="fragment">ファイルはCDNに置かれる</p>
-					<p class="fragment">Gatsby (React), Gridsome (Vue), Svelte (Sapper)</p>
+					<p class="fragment">Gatsby (React), Gridsome (Vue)</p>
+					<p class="fragment">Svelte (Sapper), 11ty</p>
 				</section>
 
 				<section>
@@ -244,29 +244,108 @@
 				</section>
 
 				<section>
-					<h3>PWAとは？</h3>
-					<p class="fragment">ネイティブアプリっぽく動作するwebアプリ</p>
+					<h3>JAMstackの事例</h3>
 				</section>
 
 				<section>
-					<h3>ユーザーにとってのPWA</h3>
-					<p class="fragment">ユーザーはスマホを使っている</p>
-					<p class="fragment">PWAを使っている訳ではない</p>
-					<p class="fragment">ネイティブアプリとあまり変わらない操作性</p>
-					<p class="fragment">ネイティブアプリとPWAの違いをあまり気がついていない</p>
-					<p class="fragment">気が付かないUX -> いいUX</p>
+					<h3>Smashing Magazine</h3>
+					<p>
+						<img class="plain" src="images/smashing.png" />
+					</p>
+					<p><small>https://www.smashingmagazine.com/2020/01/migration-from-wordpress-to-jamstack/</small></p>
 				</section>
 
 				<section>
-					<h3>PWAとネイティブアプリ</h3>
-					<p class="fragment">Not PWA vs Web</p>
-					<p class="fragment">Good UX vs bad UX</p>
-					<p class="fragment"></p>
-					<p class="fragment">気が付かないUX -> いいUX</p>
+					<h3>Stri</h3>
+					<p>
+						<img class="plain" src="images/impossible.png" />
+					</p>
+					<p><small>https://impossiblefoods.com/</small></p>
+				</section>
+
+				<section>
+					<h3>Impossible Foods</h3>
+					<p>
+						<img class="plain" src="images/impossible.png" />
+					</p>
+					<p><small>https://impossiblefoods.com/</small></p>
+				</section>
+
+				<section>
+					<h3>Impossible FoodsのJAMstackへの移行</h3>
+					<p class="fragment">page views 92%増加</p>
+					<p class="fragment">unique users 61%増加</p>
+				</section>
+
+				<section>
+					<h3>StriVectin</h3>
+					<p>
+						<img class="plain" src="images/stri.png" />
+					</p>
+					<p><small>https://www.strivectin.com</small></p>
+				</section>
+
+				<section>
+					<h3>StriVectinのJAMstackへの移行</h3>
+					<p class="fragment">コードのファイル数が20,000から300に</p>
+					<p class="fragment">月$2000かかっていたホスティングが一日数ドルに</p>
+					<p class="fragment">オーガニックの流入が継続して20%増加</p>
+					<p class="fragment"><small>出典: https://softblues.io/what-is-jamstack-gatsby-and-how-it-can-improve-your-web-experience/</small></p>
 				</section>
 
 				<section>
 					<h3>先程の話</h3>
+					<p class="fragment">ユーザーの期待値</p>
+				</section>
+
+				<section>
+					<h3>ユーザーはスマホを使っている</h3>
+					<p class="fragment">ほとんどの時間はスマホUIに特化したネイティブアプリ</p>
+					<p class="fragment">webはちょこちょこ</p>
+					<p class="fragment">webとネイティブアプリを意図的に使い分けている訳ではない</p>
+				</section>
+
+				<section>
+					<h3>スマホユーザーの期待値</h3>
+					<p class="fragment">スマホ用に洗練されたUI</p>
+					<p class="fragment">サクサク動く</p>
+					<p class="fragment">電波が悪くなっても落ちない</p>
+				</section>
+
+				<section>
+					<h3>スマホの中でネイティブアプリみたいに動作しない</h3>
+					<p class="fragment">結論：悪</p>
+				</section>
+
+				<section>
+					<h3>解決方法</h3>
+					<p class="fragment">PWA</p>
+				</section>
+
+				<section>
+					<h3>PWA</h3>
+					<p class="fragment">プログレッシブ・ウェブ・アプリ</p>
+					<p class="fragment">Webサイトとして動作</p>
+					<p class="fragment">ネイティブアプリみたいなUI</p>
+					<p class="fragment">ネイティブアプリみたいにさくさく動く</p>
+					<p class="fragment">Service Workerで接続が切れても使える</p>
+				</section>
+
+				<section>
+					<h3>PWAの技術</h3>
+					<p class="fragment">JSのフレームワークで作る</p>
+					<p class="fragment">React, Vue, Svelte</p>
+					<p class="fragment">スマホのUI先、その後デスクトップのUI</p>
+					<p class="fragment">Service Workerを入れる</p>
+					<p class="fragment">バックエンドとはAPIで通信</p>
+				</section>
+
+				<section>
+					<h3>ネイティブアプリを使えるようになるまで</h3>
+					<p class="fragment">プログレッシブ・ウェブ・アプリ</p>
+					<p class="fragment">ネイティブアプリみたいなUI</p>
+					<p class="fragment">ネイティブアプリみたいにさくさく動く</p>
+					<p class="fragment">Service Workerで接続が切れても使える</p>
 				</section>
 
 				<section>
